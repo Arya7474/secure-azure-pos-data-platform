@@ -1,0 +1,31 @@
+digraph "Basic Azure App Service Architecture" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="Basic Azure App Service Architecture" nodesep=0.60 pad=2.0 rankdir=TB ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	"328e72df642f46ee8564d91e88a4d62a" [label=User height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/general/helpsupport.png" shape=none]
+	subgraph cluster_Compute {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label=Compute labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		c17b9b22528c4632b04e726da9e3b01f [label=AppServices height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/compute/app-services.png" shape=none]
+		"6a2669077e6d42dd86e0eed5d7efc3c9" [label=KV height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/security/key-vaults.png" shape=none]
+		f4e4eb4ff6a34c2ead36f6e90e1fe791 [label=UMID height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/identity/managed-identities.png" shape=none]
+	}
+	subgraph cluster_Data {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label=Data labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		"6cfc1239d2ee4ee2b9f21c1a87c02816" [label="Azure SQL Database" height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/database/sql-servers.png" shape=none]
+	}
+	subgraph cluster_Identity {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label=Identity labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		"633a78c5976647c1add6406f400f5b88" [label="Microsoft Entra ID" height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/identity/active-directory.png" shape=none]
+	}
+	subgraph cluster_Monitoring {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label=Monitoring labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		bd6904d5a4a64a86a60ba1a6eedeb9be [label="App Insights" height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/devops/application-insights.png" shape=none]
+		acf7cf3634e14aef9be3b2e9cbba71e0 [label="Azure Monitor" height=1.9 image="/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/resources/azure/general/servicehealth.png" shape=none]
+	}
+	"328e72df642f46ee8564d91e88a4d62a" -> c17b9b22528c4632b04e726da9e3b01f [color=darkorange dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"328e72df642f46ee8564d91e88a4d62a" -> "6a2669077e6d42dd86e0eed5d7efc3c9" [color=darkorange dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"328e72df642f46ee8564d91e88a4d62a" -> f4e4eb4ff6a34c2ead36f6e90e1fe791 [color=darkorange dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	c17b9b22528c4632b04e726da9e3b01f -> "6cfc1239d2ee4ee2b9f21c1a87c02816" [color=darkgreen dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"6a2669077e6d42dd86e0eed5d7efc3c9" -> "6cfc1239d2ee4ee2b9f21c1a87c02816" [color=darkgreen dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	f4e4eb4ff6a34c2ead36f6e90e1fe791 -> "6cfc1239d2ee4ee2b9f21c1a87c02816" [color=darkgreen dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}
