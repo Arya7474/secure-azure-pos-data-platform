@@ -1,0 +1,101 @@
+product_id,product_name,brand,category,sub_category,unit_cost,unit_price
+1,Product_1,BrandB,Healthcare,Capsule,25.39,42.31
+2,Product_2,BrandC,Pain Relief,Liquid,13.66,22.76
+3,Product_3,BrandB,Personal Care,Capsule,11.41,19.01
+4,Product_4,BrandA,Pain Relief,Liquid,27.37,45.62
+5,Product_5,BrandB,Pain Relief,Capsule,11.19,18.65
+6,Product_6,BrandB,Healthcare,Capsule,20.74,34.57
+7,Product_7,BrandC,Vitamins,Tablet,6.97,11.62
+8,Product_8,BrandC,Healthcare,Liquid,12.99,21.65
+9,Product_9,BrandA,Healthcare,Capsule,17.12,28.54
+10,Product_10,BrandB,Personal Care,Tablet,15.87,26.45
+11,Product_11,BrandB,Vitamins,Liquid,6.26,10.43
+12,Product_12,BrandB,Healthcare,Tablet,6.61,11.01
+13,Product_13,BrandA,Vitamins,Capsule,3.97,6.61
+14,Product_14,BrandB,Healthcare,Liquid,8.45,14.09
+15,Product_15,BrandA,Healthcare,Capsule,8.23,13.72
+16,Product_16,BrandB,Healthcare,Liquid,16.91,28.18
+17,Product_17,BrandB,Pain Relief,Tablet,27.5,45.83
+18,Product_18,BrandA,Healthcare,Capsule,24.1,40.16
+19,Product_19,BrandB,Personal Care,Liquid,29.14,48.57
+20,Product_20,BrandB,Healthcare,Liquid,5.81,9.69
+21,Product_21,BrandB,Healthcare,Liquid,4.18,6.97
+22,Product_22,BrandB,Healthcare,Liquid,20.09,33.49
+23,Product_23,BrandB,Personal Care,Tablet,15.53,25.88
+24,Product_24,BrandA,Vitamins,Capsule,28.18,46.96
+25,Product_25,BrandB,Vitamins,Liquid,11.15,18.58
+26,Product_26,BrandB,Healthcare,Tablet,8.3,13.84
+27,Product_27,BrandC,Healthcare,Liquid,17.67,29.45
+28,Product_28,BrandB,Pain Relief,Liquid,29.63,49.38
+29,Product_29,BrandC,Vitamins,Capsule,21.34,35.56
+30,Product_30,BrandA,Pain Relief,Liquid,6.38,10.63
+31,Product_31,BrandA,Personal Care,Tablet,17.26,28.76
+32,Product_32,BrandC,Pain Relief,Tablet,26.14,43.56
+33,Product_33,BrandB,Healthcare,Tablet,9.09,15.15
+34,Product_34,BrandB,Pain Relief,Capsule,6.57,10.95
+35,Product_35,BrandA,Vitamins,Tablet,9.69,16.15
+36,Product_36,BrandB,Personal Care,Capsule,22.82,38.04
+37,Product_37,BrandB,Vitamins,Liquid,5.59,9.32
+38,Product_38,BrandC,Healthcare,Tablet,3.8,6.34
+39,Product_39,BrandA,Vitamins,Tablet,19.67,32.78
+40,Product_40,BrandB,Healthcare,Capsule,6.07,10.11
+41,Product_41,BrandA,Vitamins,Capsule,9.37,15.61
+42,Product_42,BrandC,Personal Care,Capsule,24.59,40.99
+43,Product_43,BrandC,Vitamins,Liquid,19.94,33.23
+44,Product_44,BrandC,Pain Relief,Tablet,6.87,11.45
+45,Product_45,BrandA,Personal Care,Tablet,14.57,24.28
+46,Product_46,BrandA,Personal Care,Liquid,18.29,30.48
+47,Product_47,BrandB,Healthcare,Tablet,29.3,48.84
+48,Product_48,BrandB,Personal Care,Capsule,7.19,11.99
+49,Product_49,BrandC,Vitamins,Tablet,10.05,16.75
+50,Product_50,BrandB,Pain Relief,Capsule,7.84,13.06
+51,Product_51,BrandA,Healthcare,Liquid,11.72,19.53
+52,Product_52,BrandC,Vitamins,Liquid,16.48,27.47
+53,Product_53,BrandA,Pain Relief,Capsule,18.37,30.62
+54,Product_54,BrandC,Personal Care,Tablet,9.03,15.05
+55,Product_55,BrandC,Personal Care,Liquid,22.6,37.66
+56,Product_56,BrandA,Pain Relief,Tablet,12.89,21.49
+57,Product_57,BrandC,Vitamins,Capsule,23.84,39.74
+58,Product_58,BrandB,Personal Care,Capsule,12.38,20.63
+59,Product_59,BrandB,Pain Relief,Capsule,24.8,41.33
+60,Product_60,BrandC,Vitamins,Tablet,4.94,8.24
+61,Product_61,BrandA,Personal Care,Liquid,23.65,39.42
+62,Product_62,BrandA,Vitamins,Tablet,15.43,25.71
+63,Product_63,BrandA,Healthcare,Liquid,12.09,20.15
+64,Product_64,BrandC,Personal Care,Liquid,9.91,16.52
+65,Product_65,BrandC,Pain Relief,Capsule,27.28,45.47
+66,Product_66,BrandB,Personal Care,Capsule,14.26,23.76
+67,Product_67,BrandC,Personal Care,Capsule,20.27,33.78
+68,Product_68,BrandA,Personal Care,Capsule,11.06,18.44
+69,Product_69,BrandC,Personal Care,Capsule,7.96,13.27
+70,Product_70,BrandA,Personal Care,Tablet,21.32,35.53
+71,Product_71,BrandA,Personal Care,Capsule,9.61,16.02
+72,Product_72,BrandB,Healthcare,Liquid,3.2,5.33
+73,Product_73,BrandC,Vitamins,Liquid,18.14,30.23
+74,Product_74,BrandA,Vitamins,Liquid,26.02,43.36
+75,Product_75,BrandC,Pain Relief,Liquid,7.49,12.48
+76,Product_76,BrandB,Healthcare,Capsule,15.35,25.58
+77,Product_77,BrandA,Vitamins,Capsule,20.65,34.42
+78,Product_78,BrandB,Pain Relief,Tablet,4.16,6.94
+79,Product_79,BrandB,Personal Care,Liquid,20.92,34.86
+80,Product_80,BrandB,Vitamins,Capsule,28.76,47.94
+81,Product_81,BrandA,Vitamins,Tablet,19.78,32.97
+82,Product_82,BrandC,Vitamins,Liquid,18.53,30.89
+83,Product_83,BrandC,Vitamins,Liquid,18.79,31.31
+84,Product_84,BrandA,Personal Care,Capsule,27.34,45.57
+85,Product_85,BrandB,Pain Relief,Liquid,20.34,33.9
+86,Product_86,BrandB,Healthcare,Tablet,5.17,8.61
+87,Product_87,BrandA,Healthcare,Tablet,5.45,9.08
+88,Product_88,BrandB,Healthcare,Capsule,29.47,49.12
+89,Product_89,BrandB,Vitamins,Liquid,28.14,46.9
+90,Product_90,BrandC,Pain Relief,Liquid,15.14,25.24
+91,Product_91,BrandB,Vitamins,Capsule,10.82,18.04
+92,Product_92,BrandC,Pain Relief,Capsule,26.23,43.72
+93,Product_93,BrandC,Pain Relief,Liquid,3.87,6.45
+94,Product_94,BrandB,Personal Care,Liquid,10.34,17.23
+95,Product_95,BrandB,Healthcare,Tablet,14.48,24.14
+96,Product_96,BrandA,Pain Relief,Tablet,12.26,20.44
+97,Product_97,BrandA,Vitamins,Capsule,7.25,12.08
+98,Product_98,BrandC,Healthcare,Tablet,6.49,10.82
+99,Product_99,BrandA,Healthcare,Liquid,16.43,27.38
+100,Product_100,BrandB,Personal Care,Tablet,15.11,25.19

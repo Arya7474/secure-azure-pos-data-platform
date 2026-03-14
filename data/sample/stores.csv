@@ -1,0 +1,21 @@
+store_id,store_name,city,state,region,store_type,open_date
+1,Store_1,Dallas,WA,West,Suburban,2016-03-01
+2,Store_2,Chicago,NY,East,Suburban,2016-06-08
+3,Store_3,Seattle,IL,Midwest,Suburban,2018-04-04
+4,Store_4,Dallas,TX,East,Mall,2018-08-19
+5,Store_5,New York,TX,East,Urban,2017-11-15
+6,Store_6,Chicago,NY,East,Suburban,2020-05-06
+7,Store_7,Seattle,IL,East,Mall,2019-04-03
+8,Store_8,Seattle,WA,Midwest,Suburban,2017-06-10
+9,Store_9,New York,IL,Midwest,Urban,2016-12-25
+10,Store_10,Chicago,NY,West,Mall,2016-07-22
+11,Store_11,Boston,NY,East,Mall,2016-04-17
+12,Store_12,Boston,WA,Midwest,Mall,2015-04-24
+13,Store_13,Chicago,NY,South,Suburban,2020-04-20
+14,Store_14,Seattle,IL,South,Suburban,2019-02-10
+15,Store_15,Seattle,TX,Midwest,Urban,2019-12-09
+16,Store_16,Seattle,MA,Midwest,Suburban,2018-01-31
+17,Store_17,Boston,IL,West,Urban,2015-06-07
+18,Store_18,Seattle,IL,East,Urban,2015-04-14
+19,Store_19,Boston,TX,East,Suburban,2017-08-05
+20,Store_20,New York,TX,East,Urban,2020-02-29
